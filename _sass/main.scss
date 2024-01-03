@@ -49,6 +49,11 @@ body {
     font-weight: bold;
 }
 
+.container {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
 .columns {
     .button {
         margin: 0.5rem !important;
@@ -71,4 +76,6 @@ hr {
             text-decoration: underline;
         }
     }
+
+    
 }

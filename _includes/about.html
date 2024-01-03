@@ -1,29 +1,29 @@
 <section class="hero is-fullheight has-text-centered has-background-white-ter" id="about">
     <div class="hero-body">
-        <div class="container">
-            <div class="columns">
-                <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
-                    <figure class="image">
-                        <img class="is-rounded" src="{{site.author-image}}" alt="{{site.author-name}}">
-                    </figure>
-                </div>
-                <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
-                    <p>{{site.author-about}}</p>
-                    <br>
-                    <div class="container columns is-centered">
-                        <div>
-                            <a href="{{site.url}}{{site.baseurl}}/#contact"
-                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Contact
-                                Me</a>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="{{site.url}}{{site.baseurl}}/blog"
-                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Blog</a>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        <div class="about-container">
+            <div class="about-column-image">
+                <figure class="image">
+                    <img class="is-rounded" src="{{site.author-image}}" alt="{{site.author-name}}">
+                </figure>
             </div>
+            <div class="about-column-text-and-buttons">
+                <div class="about-text">
+                    <p >
+                        {{site.author-about}}
+                    </p>
+                </div>
+                <div class="about-buttons-container">
+                    <a href="{{site.url}}{{site.baseurl}}/#contact"
+                        class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined contact-me-button">Contact
+                        Me
+                    </a>
+                    <a href="{{site.url}}{{site.baseurl}}/projects"
+                        class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined portfolio-button">Portfolio</a>
+                    </a>
+                    <a href="/assets/cv/CV - Franco Sterrantino - 2024.pdf"
+                        class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined cv-button">CV</a>
+                    </a>
+                </div>
+            <div>
         </div>
 </section>

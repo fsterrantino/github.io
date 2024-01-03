@@ -11,7 +11,8 @@
 * Compatible with [Github Pages](https://pages.github.com/)
 * Responsive and Blogging Ready
 * HTML Compressor using [Jekyll Compress HTML](https://jch.penibelst.de/)
-* Minified CSS using SaSS
+
+
 * CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
 * Supports Latest [Jekyll 4.x](https://jekyllrb.com/) and [Bundler](https://bundler.io/)
 * Stylesheet built using SaSS

@@ -3,6 +3,8 @@
 
 @import "main.scss";
 
+
+
 #navbar {
     opacity: 0.95;
 }
@@ -60,7 +62,9 @@ a.navbar-item.is-active {
         opacity: 0.25;
         content: "";
     }
+
 }
+
 .title {
     margin: auto 0.75rem!important;
 }
@@ -68,24 +72,130 @@ a.navbar-item.is-active {
     letter-spacing: 0.25rem;
 }
 
+@media screen and (max-width: 426px) {
+
+    .title {
+        font-size: 45px !important;
+        margin-bottom: 10px !important;
+    }
+
+}
+
 #about {
-    .image {
-        max-width: 20vmax;
-        margin: auto;
 
-        img {
-            border: 0.25rem dotted black;
+    .about-container {
+        width: 100%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        display: flex;
+        flex-direction: row;
+        padding: 100px;
+    }
+
+    .about-column-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .about-column-image .image {
+        display: flex;
+        min-width: 15vw;
+        max-height: 100%;
+        border-radius: 50%; /* Make the image round */
+        object-fit: cover; /* Ensure the image covers the container */
+    }
+
+    .about-column-text-and-buttons {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-text {
+        display: flex;
+        align-items: center;
+        padding: 1.5vw 1.5vw 0 1.5vw;
+        margin: 0px;
+        flex-grow: 1;
+    }
+
+    .about-text p {
+        font-size: 1.3vw;
+        text-align: left;
+        overflow-y: auto;
+    }
+
+    .about-buttons-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 10px 0 10px 30px;
+    }
+
+    .about-buttons-container .button {
+        flex-grow: 1;
+        flex-basis: 0;
+        margin: 0 30px 0 0;
+        height: 3vw;
+        font-size: 1.4vw;
+    }
+
+    @media screen and (max-width: 768px) {
+        .about-container {
+            flex-direction: column;
         }
+
+        .about-column-image .image {
+            max-width: 30vw;
+        }
+
+        .about-text p {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .about-buttons-container {
+            padding: 10px 0 10px 10px;
+        }
+
+
+        .about-buttons-container .button {
+            font-size: 16px;
+            min-height: 30px;
+            margin: 0 10px 0 0;
+        }
+
     }
 
-    a {
-        min-width: 25vmax;
-        margin: 0.5rem;
+    @media screen and (max-width: 650px) {
+        .cv-button {
+            margin-top: 10px;
+        }
+
+        .about-container {
+            padding: 10px
+        }
+
+        .about-buttons-container {
+            flex-direction: column;
+        }
+
+        .about-buttons-container .button {
+            margin: 0 0 10px 0;
+        }
+
     }
+
+
 }
 
 #contact {
-    #contact-button {
+    .button {
         margin: 0.5rem auto;
         display: flex;
         justify-content: center;
@@ -309,8 +419,9 @@ a.navbar-item.is-active {
         letter-spacing: 0.05rem;
     }
 
-    #description {
+    #project-description {
         margin-bottom: 1.25vmax;
+        font-size: 1rem;
     }
 
     .tag {
@@ -344,6 +455,17 @@ a.navbar-item.is-active {
     #disqus_thread {
         margin-top: 5vmax;
     }
+
+    .post-subtitle {
+        margin-bottom: 3px;
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        color: #7a7a7a;
+        font-style: oblique;
+    }
+
 }
 
 #page-section {
