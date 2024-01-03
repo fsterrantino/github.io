@@ -44,7 +44,7 @@ disqus-shortname: thedevslot
 # Name of the Author
 author-name: Franco_Sterrantino
 # URL for the Image of the Author
-author-image: /assets/images/franco_cv.jpg
+author-image: {{ site.baseurl }}/assets/images/franco_cv.jpg
 # 60 Words About the Author
 author-about: Hi, my name is Franco and I'm an Industrial Engineer. Despite my professional carreer in Technological and Operational Risk Management, I am embarking on a deliberate career pivot towards Data Engineering, a field that has captivated my interest and driven me to craft projects as a hobbyist. My extensive experience in Operational Risk, in the financial industry, has cultivated a robust sense of business processes, ideal to understand diverse team requirements, and a profound ability to bridge business needs with technical solutions.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
