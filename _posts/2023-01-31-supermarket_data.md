@@ -1,7 +1,7 @@
 ---
 title: Supermarket Data
 layout: post
-post-image: /assets/images/supermarket_data.png
+post-image: /personal-website/assets/images/supermarket_data.png
 description: The objective of the project is to be able to measure prices variations of supermarket products.
 tags:
 - Python (Selenium)
