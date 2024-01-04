@@ -1,7 +1,7 @@
 ---
 title: Stocks Data
 layout: post
-post-image: /assets/images/stocks_data.png
+post-image: /personal-website/assets/images/stocks_data.png
 description: Project created during CoderHouse Data Engineer course. The objective is to create a complete ETL, from the API extraction to the Database load.
 
 tags:
