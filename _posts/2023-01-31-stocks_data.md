@@ -8,6 +8,7 @@ tags:
 - Python (Pandas)
 - Python (Requests)
 - Python (SqlAlchemy)
+- Airflow
 - Amazon Redshift
 - SQL
 repo: https://github.com/fsterrantino/polygon_api
