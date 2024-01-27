@@ -16,7 +16,7 @@ repo: https://github.com/fsterrantino/polygon_api
 
 1. [Context](#context)
 1. [Description](#description)
-1. [Conclusions](#conclusions)
+1. [Architecture](#architecture)
 1. [Screenshots](#screenshots)
 
 ---
@@ -28,13 +28,17 @@ I chose Polygon API, which has good documentation and rate limits for the requir
 ## Description
 ### Extract
 The retrieve it's done with the requests library. Planned to be executed daily in order to obtain yesterday's hourly prices of a pack of stocks.
+### Transform
+In this phase some adjustments are made on the data in order to be uploaded correctly. It also includes the integrity control, checking if data was already inserted. If not, a 'csv' file is generated to be inserted in a Redshift Database. If duplicates are found, a support file is created in order to analyze duplicated values.
 ### Load
-The first step is to check if the data was already inserted. If not, the information is inserted in a Redshift Database.
-<!-- ### Automation and development
-Scripts are implemented in Docker and automated with Airflow. -->
+The upload it's done with SQLAlchemy library.
+### Alerts
+An specific alert was designed in order to send an e-mail if a stock close price decreases or increases it's value by a configurable percentage. The e-mail has the detail of identified rows.
+### Automation and development
+Scripts are implemented in Docker, using Dockerfile and Docker-Compose files, and automated with Airflow. The scripts are included to the project as a Poetry Wheel, and installed through the Dockerfile in order to be imported by the DAG.
 
-<!-- ## Conclusions
+## Architecture
+![Alt Text](/personal-website/assets/images/stocks_data/architecture.png)
 
-## Screenshots -->
-
-<!-- description: Project created during CoderHouse Data Engineer course. The objetive is to create a complete ETL, from the API extraction to the Database load, full automated with Airflow. -->
+## Screenshots
+[Download PDF](/personal-website/assets/images/stocks_data/Screenshots.pdf)
