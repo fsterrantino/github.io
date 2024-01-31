@@ -28,11 +28,11 @@ I chose Polygon API, which has good documentation and rate limits for the requir
 
 ## Screenshots sample
 ### Airflow run
-![Alt Text](/personal-website/assets/images/stocks_data/screenshots/screenshots_1.png)
+![Alt Text](/personal-website/assets/images/stocks_data/screenshots/screenshot_1.png)
 ### Postgre load
-![Alt Text](/personal-website/assets/images/stocks_data/screenshots/screenshots_2.png)
+![Alt Text](/personal-website/assets/images/stocks_data/screenshots/screenshot_2.png)
 ### Alert mail
-![Alt Text](/personal-website/assets/images/stocks_data/screenshots/screenshots_3.png)
+![Alt Text](/personal-website/assets/images/stocks_data/screenshots/screenshot_3.png)
 
 ## Architecture
 ![Alt Text](/personal-website/assets/images/stocks_data/architecture.png)
