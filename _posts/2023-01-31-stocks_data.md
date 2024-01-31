@@ -15,6 +15,7 @@ repo: https://github.com/fsterrantino/polygon_api
 ---
 
 1. [Context](#context)
+1. [Screenshots sample](#screenshots sample)
 1. [Description](#description)
 1. [Architecture](#architecture)
 1. [Screenshots](#screenshots)
@@ -24,6 +25,17 @@ repo: https://github.com/fsterrantino/polygon_api
 ## Context
 During the Data Engineer course each student developed a complete automated ETL. The objective was to select a public API, with information that's updated at least daily.
 I chose Polygon API, which has good documentation and rate limits for the required use case.
+
+## Screenshots sample
+### Airflow run
+![Alt Text](/personal-website/assets/images/stocks_data/screenshots/screenshots_1.jpeg)
+### Postgre load
+![Alt Text](/personal-website/assets/images/stocks_data/screenshots/screenshots_2.jpeg)
+### Alert mail
+![Alt Text](/personal-website/assets/images/stocks_data/screenshots/screenshots_3.jpeg)
+
+## Architecture
+![Alt Text](/personal-website/assets/images/stocks_data/architecture.png)
 
 ## Description
 ### Extract
@@ -36,9 +48,6 @@ The upload it's done with SQLAlchemy library.
 An specific alert was designed in order to send an e-mail if a stock close price decreases or increases it's value by a configurable percentage. The e-mail has the detail of identified rows.
 ### Automation and development
 Scripts are implemented in Docker, using Dockerfile and Docker-Compose files, and automated with Airflow. The scripts are included to the project as a Poetry Wheel, and installed through the Dockerfile in order to be imported by the DAG.
-
-## Architecture
-![Alt Text](/personal-website/assets/images/stocks_data/architecture.png)
 
 ## Screenshots
 [Download PDF](/personal-website/assets/images/stocks_data/Screenshots.pdf)

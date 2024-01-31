@@ -26,6 +26,9 @@ repo: https://github.com/fsterrantino/supermarket
 Argentina has struggled with various economic issues, including fiscal deficits, currency devaluation, and inconsistent policies. These factors have contributed to a cycle of high inflation rates, eroding the purchasing power of the Argentine peso and impacting the cost of goods and services for consumers.
 Inflation can be described as the currency depreciation. This means that with the same amount of money you won't be able to buy the same amount of goods next month. Following this concept, all prices increase almost every week.
 
+## Architecture
+![Alt Text](/personal-website/assets/images/supermarket_project/architecture.png)
+
 ## Objective
 Accordingly to the described context, the objective of the project it's to be able to track some prices of the economy, and analyze that data to obtain meaningful conclusions such as products with the most significant variations. For that, I chose a well-known supermarket, Jumbo (similar to Wallmart in other countries), in order to track warehouse products prices.
 

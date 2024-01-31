@@ -24,7 +24,10 @@ repo: https://github.com/fsterrantino/pokemon_api_mongo_db
 ---
 
 ## Context
-Project developed in order to practice MongoDB features.
+Project developed in order to use MongoDB features and develop an ETL process.
+
+## Architecture
+![Alt Text](/personal-website/assets/images/pokemon_data/architecture.png)
 
 ## Objective
 Create an ETL process that extracts Pokemons information from an API in a Json format, load it into a MongoDB database. Then extract it again, transform it with Pandas, and load it to PostgreSQL with a simple model design.
