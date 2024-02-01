@@ -389,6 +389,7 @@ a.navbar-item.is-active {
         display: inline-table;
         &:hover {
             transform: scale(0.975);
+            cursor: pointer
         }
     }
     .card {
