@@ -4,7 +4,10 @@
       id="project-card">
       <a href="{{project.link}}" target="_blank">
       <div class="has-background-black card">
-        <figure class="image is-3by1" style="background-image: url({{project.image}});">
+        <figure class="image is-3by1">
+          <a href="{{project.link}}" target="_blank">
+            <img src="{{project.image}}" alt="{{project.name}}">
+          </a>
         </figure>
         <div class="card-content">
           <h1 class="title has-text-white is-size-4">{{ project.name }}</h1>

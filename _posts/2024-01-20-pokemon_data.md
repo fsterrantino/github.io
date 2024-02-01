@@ -26,6 +26,8 @@ repo: https://github.com/fsterrantino/pokemon_api_mongo_db
 ## Context
 Project developed in order to use MongoDB features and develop an ETL process.
 
+## 
+
 ## Architecture
 ![Alt Text](/personal-website/assets/images/pokemon_data/architecture.png)
 
