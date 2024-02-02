@@ -34,7 +34,7 @@ Inflation can be described as the currency depreciation. This means that with th
 ## Screenshots sample
 Look for Screenshots section in order to see the full execution.
 ### Scrapped page
-![Alt Text](/personal-website/assets/images/stocsupermarket_projectks_data/Screenshots/screenshot_1.jpg)
+![Alt Text](/personal-website/assets/images/supermarket_project/Screenshots/screenshot_1.jpg)
 ### Scrapping logs
 ![Alt Text](/personal-website/assets/images/supermarket_project/Screenshots/screenshot_2.jpg)
 ### Transformed dataset
