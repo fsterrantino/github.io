@@ -3,7 +3,7 @@
         <div class="image is-16by9" style="background-image: url({{post.post-image}});"></div>
     </div>
     <a href="{{post.url | absolute_url}}">
-        <div class="column has-text-left-desktop has-text-left-tablet">
+        <div class="column has-text-left-desktop has-text-left-tablet vertical-center">
             <h1 class="title is-size-4-touch">{{post.title}}</h1>
             <div class="content has-text-grey">
                 {{ post.description | truncate: 300 | strip_html | strip_newlines | strip | escape }}

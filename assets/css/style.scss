@@ -225,6 +225,13 @@ a.navbar-item.is-active {
         margin: 1.5rem auto;
     }
 
+    .vertical-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%; /* Set the height of the container to 100% */
+    }
+
     #blog-card {
         transition: all 0.25s ease;
         margin-bottom: 0.5vmax;
