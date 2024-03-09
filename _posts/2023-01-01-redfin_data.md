@@ -1,7 +1,7 @@
 ---
 title: Redfin data
 layout: post
-post-image: /personal-website/assets/images/redfin_data_jpg.jpg
+post-image: /personal-website/assets/images/redfin_data.png
 description: Simple ETL project using AWS (EMR, EC2, S3) with PySpark.
 tags:
 - AWS
